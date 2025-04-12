@@ -7,6 +7,7 @@ import HowItWorksSection from '@/components/HowItWorksSection';
 import FaqSection from '@/components/FaqSection';
 import CtaSection from '@/components/CtaSection';
 import Footer from '@/components/Footer';
+import Logo from '@/components/Logo';
 
 const Index = () => {
   // Update page title
@@ -21,6 +22,13 @@ const Index = () => {
         <HeroSection />
         <HowItWorksSection />
         <FeaturesSection />
+
+        <section className="pt-10 px-6 md:px-12 bg-secondary">
+          <div className="relative flex items-center justify-center w-full">
+            <Logo className="animate-float" />
+          </div>
+        </section>
+
         <FaqSection />
         <CtaSection />
       </main>
