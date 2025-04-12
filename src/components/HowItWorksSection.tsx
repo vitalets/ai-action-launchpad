@@ -47,7 +47,7 @@ const HowItWorksSection: React.FC = () => {
                 </div>
                 <h3 className="text-xl font-bold mb-3">{step.title}</h3>
                 <p className="text-foreground/70">{step.description}</p>
-                {index < steps.length - 1 && (
+                {/* {index < steps.length - 1 && (
                   <div className="hidden md:block absolute -right-4 top-1/2 transform -translate-y-1/2 z-10">
                     <div className="w-8 h-8 text-primary">
                       <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -55,7 +55,7 @@ const HowItWorksSection: React.FC = () => {
                       </svg>
                     </div>
                   </div>
-                )}
+                )} */}
               </CardContent>
             </Card>
           ))}

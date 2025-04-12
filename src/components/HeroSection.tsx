@@ -6,7 +6,7 @@ import { MousePointer, ArrowRight } from 'lucide-react';
 
 const HeroSection: React.FC = () => {
   return (
-    <section className="min-h-screen hero-pattern pt-28 px-6 md:px-12 relative overflow-hidden">
+    <section className="hero-pattern pt-28 px-6 md:px-12 relative overflow-hidden">
       <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
         <div className="text-center lg:text-left">
           <h1 className="text-5xl md:text-6xl lg:text-7xl font-extrabold mb-6 tracking-tight">
@@ -45,14 +45,14 @@ const HeroSection: React.FC = () => {
         <div className="flex justify-center lg:justify-end">
           <div className="relative">
             <Logo className="animate-float" />
-            <div className="absolute -bottom-10 right-0 text-5xl animate-pulse">
+            {/* <div className="absolute -bottom-10 right-0 text-5xl animate-pulse">
               <MousePointer className="w-16 h-16 text-foreground/20 transform -rotate-45" />
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
       
-      <div className="absolute bottom-0 left-0 w-full h-24 bg-gradient-to-t from-background to-transparent"></div>
+      {/* <div className="absolute bottom-0 left-0 w-full h-24 bg-gradient-to-t from-background to-transparent"></div> */}
     </section>
   );
 };
