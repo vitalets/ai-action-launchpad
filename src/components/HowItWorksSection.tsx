@@ -38,7 +38,7 @@ const HowItWorksSection: React.FC = () => {
           </p>
         </div>
         
-        <div className="flex flex-col md:flex-row gap-8 justify-center">
+        <div className="flex flex-col md:flex-row gap-8 justify-center mb-16">
           {steps.map((step, index) => (
             <Card key={index} className="border-0 shadow-lg w-full md:w-72 lg:w-80">
               <CardContent className="pt-8 px-6 pb-8 flex flex-col items-center text-center">
@@ -60,9 +60,23 @@ const HowItWorksSection: React.FC = () => {
             </Card>
           ))}
         </div>
+
+        <div className="flex justify-center">
+          <div className="w-full max-w-4xl aspect-video">
+            <iframe 
+              className="w-full h-full rounded-lg shadow-lg"
+              src="https://www.youtube.com/embed/vaKkNFQ3K8o"
+              title="AI Action Chrome Extension Demo"
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+            />
+          </div>
+        </div>
       </div>
     </section>
   );
 };
 
 export default HowItWorksSection;
+
