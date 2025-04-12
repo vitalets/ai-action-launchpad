@@ -11,8 +11,8 @@ const Header: React.FC = () => {
       </div>
       
       <nav className="hidden md:flex space-x-8 text-foreground/80">
-        <a href="#features" className="hover:text-primary transition-colors">Features</a>
         <a href="#how-it-works" className="hover:text-primary transition-colors">How It Works</a>
+        <a href="#features" className="hover:text-primary transition-colors">Features</a>
         <a href="#faq" className="hover:text-primary transition-colors">FAQ</a>
       </nav>
       

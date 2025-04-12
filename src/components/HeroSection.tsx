@@ -17,13 +17,12 @@ const HeroSection: React.FC = () => {
           </h1>
           
           <h2 className="text-2xl md:text-3xl font-medium text-foreground/80 mb-8">
-            Select text. Right-click. Let AI do the magic.
+            Select text. Right-click. Let AI do the rest.
           </h2>
           
           <p className="text-lg text-foreground/70 mb-10 max-w-xl mx-auto lg:mx-0">
-            Our Chrome extension supercharges your right-click menu with AI-powered actions. 
-            Process selected text in one click to get instant explanations, summaries, translations, and more.
-            {/* Get instant explanations of selected text, perform smart translations, summarize articles, and do more with just a click. */}
+            Supercharge your right-click menu with AI&#8209;powered actions.
+            Instantly send selected text to AI for smart explanations, summaries, translations, and more.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
@@ -37,7 +36,7 @@ const HeroSection: React.FC = () => {
             <Button 
               size="lg" 
               variant="outline" 
-              className="text-lg font-medium border-primary text-primary hover:bg-primary/5"
+              className="text-lg font-medium border-primary text-primary hover:text-primary/80 hover:bg-primary/5"
               onClick={() => document.getElementById('how-it-works')?.scrollIntoView({ behavior: 'smooth' })}
             >
               See How It Works
