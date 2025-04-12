@@ -6,14 +6,9 @@ import { Bot, Type, Globe, FileText, Brain, Send } from 'lucide-react';
 const FeaturesSection: React.FC = () => {
   const features = [
     {
-      title: "Text Summarization",
-      description: "Transform lengthy articles and documents into concise summaries with a single click.",
-      icon: FileText
-    },
-    {
-      title: "Language Translation",
-      description: "Instantly translate selected text into any language to break down communication barriers.",
-      icon: Globe
+      title: "Term Explanation",
+      description: "Get AI-powered explanation of tricky words or phrases.",
+      icon: Bot
     },
     {
       title: "Smart Rewriting",
@@ -21,20 +16,25 @@ const FeaturesSection: React.FC = () => {
       icon: Type
     },
     {
-      title: "AI Response Generation",
-      description: "Get AI-powered responses to questions, emails, and messages in seconds.",
-      icon: Bot
+      title: "Language Translation",
+      description: "Instantly translate selected text into any language with usage examples.",
+      icon: Globe
     },
     {
-      title: "Content Analysis",
-      description: "Analyze the sentiment, complexity, and key points of any text you select.",
+      title: "Text Summarization",
+      description: "Transform lengthy articles into concise summaries with a single click.",
+      icon: FileText
+    },
+    {
+      title: "Check grammar",
+      description: "Check grammar mistakes and imporve readability of your text.",
+      icon: Send
+    },
+    {
+      title: "Setup your own prompt",
+      description: "Create custom prompt templates to get the most out of AI Action.",
       icon: Brain
     },
-    {
-      title: "Cross-Platform Sharing",
-      description: "Easily share transformed content across your favorite platforms and apps.",
-      icon: Send
-    }
   ];
 
   return (
@@ -43,7 +43,7 @@ const FeaturesSection: React.FC = () => {
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold mb-4">Powerful Features</h2>
           <p className="text-foreground/70 text-lg max-w-2xl mx-auto">
-            Supercharge your browsing experience with these time-saving AI-powered capabilities.
+            Customize your right-click menu to boost routine actions with AI.
           </p>
         </div>
         

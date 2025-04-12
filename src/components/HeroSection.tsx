@@ -20,8 +20,9 @@ const HeroSection: React.FC = () => {
           </h2>
           
           <p className="text-lg text-foreground/70 mb-10 max-w-xl mx-auto lg:mx-0">
-            Our Chrome extension supercharges your browsing with AI-powered text actions. 
-            Summarize articles, translate languages, and more with just a click.
+            Our Chrome extension supercharges your right-click menu with AI-powered actions. 
+            Process selected text in one click to get instant explanations, summaries, translations, and more.
+            {/* Get instant explanations of selected text, perform smart translations, summarize articles, and do more with just a click. */}
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
