@@ -3,6 +3,7 @@ import React from 'react';
 import { Button } from "@/components/ui/button";
 import Logo from './Logo';
 import { MousePointer, ArrowRight } from 'lucide-react';
+import { EXTENSION_WEBSTORE_URL } from '@/config';
 
 const HeroSection: React.FC = () => {
   return (
@@ -27,7 +28,7 @@ const HeroSection: React.FC = () => {
             <Button 
               size="lg" 
               className="bg-primary hover:bg-primary/90 text-lg font-medium gap-2"
-              onClick={() => window.open("https://chrome.google.com/webstore", "_blank")}
+              onClick={() => window.open(EXTENSION_WEBSTORE_URL, "_blank")}
             >
               Add to Chrome <ArrowRight className="w-5 h-5" />
             </Button>

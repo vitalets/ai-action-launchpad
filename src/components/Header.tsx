@@ -1,6 +1,7 @@
 
 import React from 'react';
 import { Button } from "@/components/ui/button";
+import { EXTENSION_WEBSTORE_URL } from '@/config';
 
 const Header: React.FC = () => {
   return (
@@ -17,7 +18,7 @@ const Header: React.FC = () => {
       
       <Button 
         className="bg-primary hover:bg-primary/90"
-        onClick={() => window.open("https://chrome.google.com/webstore", "_blank")}
+        onClick={() => window.open(EXTENSION_WEBSTORE_URL, "_blank")}
       >
         Add to Chrome
       </Button>

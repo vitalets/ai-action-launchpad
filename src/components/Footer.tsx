@@ -1,6 +1,7 @@
 
 import React from 'react';
 import { Button } from "@/components/ui/button";
+import { EXTENSION_WEBSTORE_URL } from '@/config';
 
 const Footer: React.FC = () => {
   const currentYear = new Date().getFullYear();
@@ -38,7 +39,7 @@ const Footer: React.FC = () => {
             <h4 className="font-semibold mb-3 text-white/90">Get the Extension</h4>
             <Button 
               className="bg-white text-foreground hover:bg-white/90 mb-3"
-              onClick={() => window.open("https://chrome.google.com/webstore", "_blank")}
+              onClick={() => window.open(EXTENSION_WEBSTORE_URL, "_blank")}
             >
               Add to Chrome
             </Button>

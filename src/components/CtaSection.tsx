@@ -2,6 +2,7 @@
 import React from 'react';
 import { Button } from "@/components/ui/button";
 import { Download } from 'lucide-react';
+import { EXTENSION_WEBSTORE_URL } from '@/config';
 
 const CtaSection: React.FC = () => {
   return (
@@ -16,7 +17,7 @@ const CtaSection: React.FC = () => {
         <Button 
           size="lg" 
           className="bg-white text-primary hover:bg-white/90 text-lg font-medium gap-2"
-          onClick={() => window.open("https://chrome.google.com/webstore", "_blank")}
+          onClick={() => window.open(EXTENSION_WEBSTORE_URL, "_blank")}
         >
           <Download className="w-5 h-5" /> Add to Chrome - It's Free
         </Button>
